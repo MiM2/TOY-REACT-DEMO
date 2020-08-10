@@ -23,15 +23,4 @@ let demo = <MyComponent name = "test" id="idt">
   ToyReact.render(
     demo,
     document.body
-  ) 
-
-  /*
-  var demo = ToyReact.creatElement("div", {
-    name: "test",
-    id: "idt"
-  }, 
-  ToyReact.creatElement("span", null, "hello world"), 
-  ToyReact.creatElement("div", null, "hh"), 
-  ToyReact.creatElement("span", null));
-  document.body.appendChild(demo);
-  */
+  )
